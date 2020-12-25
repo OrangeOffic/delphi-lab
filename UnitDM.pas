@@ -17,11 +17,8 @@ type
     QueryMagazin: TADOQuery;
     DataSource2: TDataSource;
     TableMagazinDSDesigner5: TIntegerField;
-    QueryOtbor: TADOQuery;
+    TableLang: TADOTable;
     DataSource3: TDataSource;
-    QueryOtborDSDesigner: TWideStringField;
-    QueryOtborDSDesigner2: TWideStringField;
-    QueryOtborDSDesigner3: TWideStringField;
   private
     { Private declarations }
   public
