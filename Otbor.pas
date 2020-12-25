@@ -10,7 +10,6 @@ type
   TForm2 = class(TForm)
     DBGrid1: TDBGrid;
     Label1: TLabel;
-    procedure Label1Click(Sender: TObject);
   private
     { Private declarations }
   public

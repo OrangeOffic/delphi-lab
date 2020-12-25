@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 1046
-  Top = 170
+  Left = 227
+  Top = 393
   Width = 783
   Height = 520
   Caption = 'Form1'
@@ -133,5 +133,18 @@ object Form1: TForm1
     Height = 21
     TabOrder = 5
     Text = '150'
+  end
+  object DBGrid2: TDBGrid
+    Left = 16
+    Top = 280
+    Width = 593
+    Height = 120
+    DataSource = DM.DataSource3
+    TabOrder = 6
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'MS Sans Serif'
+    TitleFont.Style = []
   end
 end

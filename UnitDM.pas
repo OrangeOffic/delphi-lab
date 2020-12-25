@@ -14,9 +14,14 @@ type
     TableMagazinDSDesigner2: TWideStringField;
     TableMagazinDSDesigner3: TBCDField;
     TableMagazinDSDesigner4: TSmallintField;
-    TableMagazinDSDesigner5: TIntegerField;
     QueryMagazin: TADOQuery;
     DataSource2: TDataSource;
+    TableMagazinDSDesigner5: TIntegerField;
+    QueryOtbor: TADOQuery;
+    DataSource3: TDataSource;
+    QueryOtborDSDesigner: TWideStringField;
+    QueryOtborDSDesigner2: TWideStringField;
+    QueryOtborDSDesigner3: TWideStringField;
   private
     { Private declarations }
   public

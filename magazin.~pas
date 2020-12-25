@@ -66,6 +66,7 @@ begin
     Active:=False;
     Parameters.ParamByName('price').Value:=Edit1.Text;
     Active:=True;
+    Form2.Label1.Caption:='Отобрано записей: '+IntToStr(RecordCount);
   end;
 
   Form2.ShowModal

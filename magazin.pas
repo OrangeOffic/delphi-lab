@@ -18,6 +18,7 @@ type
     Button2: TButton;
     Label2: TLabel;
     Edit1: TEdit;
+    DBGrid2: TDBGrid;
     procedure RadioGroup1Click(Sender: TObject);
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);

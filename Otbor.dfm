@@ -1,6 +1,6 @@
 object Form2: TForm2
-  Left = 443
-  Top = 361
+  Left = 250
+  Top = 278
   Width = 783
   Height = 540
   Caption = 'Form2'
@@ -19,7 +19,6 @@ object Form2: TForm2
     Width = 32
     Height = 13
     Caption = 'Label1'
-    OnClick = Label1Click
   end
   object DBGrid1: TDBGrid
     Left = 0

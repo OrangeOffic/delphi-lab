@@ -1,7 +1,7 @@
 object DM: TDM
   OldCreateOrder = False
-  Left = 269
-  Top = 23
+  Left = 1133
+  Top = 753
   Height = 257
   Width = 320
   object ADOConnection1: TADOConnection
