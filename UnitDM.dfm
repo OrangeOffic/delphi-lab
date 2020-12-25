@@ -1,7 +1,7 @@
 object DM: TDM
   OldCreateOrder = False
-  Left = 797
-  Top = 149
+  Left = 1133
+  Top = 753
   Height = 257
   Width = 320
   object ADOConnection1: TADOConnection
@@ -46,10 +46,12 @@ object DM: TDM
     Top = 144
   end
   object QueryMagazin: TADOQuery
+    Active = True
     Connection = ADOConnection1
+    CursorType = ctStatic
     Parameters = <>
     SQL.Strings = (
-      'SELECT * FROM '#1084#1072#1075#1072#1079#1080#1085)
+      'SELECT * FROM '#1084#1072#1075#1072#1079#1080#1085' WHERE '#1094#1077#1085#1072'<=150')
     Left = 112
     Top = 8
   end

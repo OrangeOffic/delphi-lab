@@ -1,8 +1,8 @@
 object Form1: TForm1
-  Left = 228
-  Top = 224
+  Left = 1046
+  Top = 170
   Width = 783
-  Height = 494
+  Height = 520
   Caption = 'Form1'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -13,6 +13,13 @@ object Form1: TForm1
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
+  object Label2: TLabel
+    Left = 576
+    Top = 192
+    Width = 86
+    Height = 13
+    Caption = #1050#1085#1080#1075#1080' '#1085#1077' '#1076#1086#1088#1086#1078#1077
+  end
   object DBGrid1: TDBGrid
     Left = 0
     Top = 0
@@ -109,5 +116,22 @@ object Form1: TForm1
       TabOrder = 1
       OnClick = Button1Click
     end
+  end
+  object Button2: TButton
+    Left = 576
+    Top = 160
+    Width = 75
+    Height = 25
+    Caption = #1055#1086#1082#1072#1079#1072#1090#1100
+    TabOrder = 4
+    OnClick = Button2Click
+  end
+  object Edit1: TEdit
+    Left = 576
+    Top = 208
+    Width = 121
+    Height = 21
+    TabOrder = 5
+    Text = '150'
   end
 end

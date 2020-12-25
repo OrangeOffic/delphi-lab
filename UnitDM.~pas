@@ -15,6 +15,8 @@ type
     TableMagazinDSDesigner3: TBCDField;
     TableMagazinDSDesigner4: TSmallintField;
     TableMagazinDSDesigner5: TIntegerField;
+    QueryMagazin: TADOQuery;
+    DataSource2: TDataSource;
   private
     { Private declarations }
   public

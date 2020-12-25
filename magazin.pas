@@ -15,8 +15,12 @@ type
     Label1: TLabel;
     MaskEdit1: TMaskEdit;
     Button1: TButton;
+    Button2: TButton;
+    Label2: TLabel;
+    Edit1: TEdit;
     procedure RadioGroup1Click(Sender: TObject);
     procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -28,7 +32,7 @@ var
 
 implementation
 
-uses UnitDM;
+uses UnitDM, Otbor;
 
 {$R *.dfm}
 
@@ -52,6 +56,20 @@ begin
     Filter:='[год издания]>='+MaskEdit1.Text;
     Filtered:=True;
   end;
+end;
+
+procedure TForm1.Button2Click(Sender: TObject);
+begin
+
+  with DM.QueryMagazin do
+  begin
+    Active:=False;
+    SQL.Clear;
+    SQL.Add('SELECT * FROM магазин WHERE цена<='+Edit1.Text);
+    Active:=True;
+  end;
+
+  Form2.ShowModal
 end;
 
 end.
