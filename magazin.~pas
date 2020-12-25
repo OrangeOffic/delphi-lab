@@ -64,7 +64,7 @@ begin
   with DM.QueryMagazin do
   begin
     Active:=False;
-    SQL.Strings[0]:='SELECT * FROM магазин WHERE цена<='+Edit1.Text;
+    Parameters.ParamByName('price').Value:=Edit1.Text;
     Active:=True;
   end;
 

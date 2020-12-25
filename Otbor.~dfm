@@ -1,6 +1,6 @@
 object Form2: TForm2
-  Left = 232
-  Top = 173
+  Left = 1044
+  Top = 490
   Width = 783
   Height = 540
   Caption = 'Form2'
@@ -16,7 +16,7 @@ object Form2: TForm2
   object DBGrid1: TDBGrid
     Left = 0
     Top = 0
-    Width = 320
+    Width = 769
     Height = 120
     DataSource = DM.DataSource2
     TabOrder = 0
